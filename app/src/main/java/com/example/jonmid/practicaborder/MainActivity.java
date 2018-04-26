@@ -52,13 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-
     }
 
     public void showPost(View view) {
         Intent intent = new Intent(MainActivity.this, GameActivity.class);
         startActivity(intent);
-
     }
 
 
